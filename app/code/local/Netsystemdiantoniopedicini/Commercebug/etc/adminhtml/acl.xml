@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<config><acl><resources><resource id="Netsystemdiantoniopedicini_Commercebug::admin"><resource id="Netsystemdiantoniopedicini_Commercebug::system"><resource id="Netsystemdiantoniopedicini_Commercebug::config"><resource id="Netsystemdiantoniopedicini_Commercebug::commercebug" title="Configuration for Advanced Debugger"/></resource></resource></resource></resources></acl></config>
