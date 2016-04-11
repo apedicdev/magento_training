@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Apedic_Training>
+            <version>0.1.0</version>
+        </Apedic_Training>
+    </modules>
+    <global>
+        <models>
+            <sales>
+                <rewrite>
+                    <order>Apedic_Training_Model_Sales_Order</order>
+                </rewrite>
+            </sales>
+            <apedic_training>
+                <class>Apedic_Training_Model</class>
+                <resourceModel>apedic_training_resource</resourceModel>
+            </apedic_training>
+            <apedic_training_resource>
+                <class>Apedic_Training_Model_Resource</class>
+            </apedic_training_resource>
+        </models>
+        <blocks>
+            <apedic_training>
+                <class>Apedic_Training_Block</class>
+            </apedic_training>
+        </blocks>
+        <helpers>
+            <apedic_training>
+                <class>Apedic_Training_Helper</class>
+            </apedic_training>
+        </helpers>
+    </global>
+</config>
