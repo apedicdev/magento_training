@@ -30,5 +30,15 @@
                 <class>Apedic_Training_Helper</class>
             </apedic_training>
         </helpers>
+        <events>
+            <controller_front_init_before>
+                <observers>
+                    <apedic_training>
+                        <class>Apedic_Training_Model_Observer</class>
+                        <method>redirectCmsHome</method>
+                    </apedic_training>
+                </observers>
+            </controller_front_init_before>
+        </events>
     </global>
 </config>
