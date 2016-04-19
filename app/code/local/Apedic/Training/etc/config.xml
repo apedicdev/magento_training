@@ -2,11 +2,12 @@
 <config>
     <modules>
         <Apedic_Training>
-            <version>0.1.0</version>
+            <version>0.1.4</version>
         </Apedic_Training>
     </modules>
     <frontend>
         <routers>
+
             <training>
                 <use>standard</use>
                 <args>
@@ -14,6 +15,13 @@
                     <frontName>traincontroller</frontName>
                 </args>
             </training>
+            <customer>
+                <args>
+                    <modules>
+                        <apedic_training before="Mage_Customer">Apedic_Training</apedic_training>
+                    </modules>
+                </args>
+            </customer>
         </routers>
     </frontend>
     <global>
