@@ -5,7 +5,19 @@
             <version>0.1.0</version>
         </Apedic_Training>
     </modules>
+    <frontend>
+        <routers>
+            <training>
+                <use>standard</use>
+                <args>
+                    <module>Apedic_Training</module>
+                    <frontName>traincontroller</frontName>
+                </args>
+            </training>
+        </routers>
+    </frontend>
     <global>
+
         <models>
             <sales>
                 <rewrite>
