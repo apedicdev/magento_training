@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Apedic_Training>
-            <version>0.1.1</version>
+            <version>0.1.3</version>
         </Apedic_Training>
     </modules>
     <frontend>
@@ -14,9 +14,17 @@
                     <frontName>traincontroller</frontName>
                 </args>
             </training>
+            <customer>
+                <args>
+                    <modules>
+                        <apedic_training before="Mage_Customer">Apedic_Training</apedic_training>
+                    </modules>
+                </args>
+            </customer>
         </routers>
     </frontend>
     <global>
+
         <models>
             <sales>
                 <rewrite>
