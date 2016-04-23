@@ -5,5 +5,7 @@
             <block type="core/template" name="apedic.current.date.left.block"
                    template="page/html/date_left_column.phtml"></block>
         </reference>
+        <remove name="checkout_cart_link"/>
+        <remove name="minicart_head"/>
     </default>
 </layout>
