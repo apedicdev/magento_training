@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="left">
+            <block type="core/template" name="apedic.current.date.left.block"
+                   template="page/html/date_left_column.phtml"></block>
+        </reference>
+    </default>
+</layout>
