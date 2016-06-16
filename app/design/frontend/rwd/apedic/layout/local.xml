@@ -8,4 +8,11 @@
         <remove name="checkout_cart_link"/>
         <remove name="minicart_head"/>
     </default>
+    <custom_handle>
+        <block type="core/text" name="root" output="toHtml">
+            <action method="addText">
+                <text>pippo</text>
+            </action>
+        </block>
+    </custom_handle>
 </layout>
