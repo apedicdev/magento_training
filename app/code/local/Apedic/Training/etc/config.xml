@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Apedic_Training>
-            <version>0.1.3</version>
+            <version>0.4.1</version>
         </Apedic_Training>
     </modules>
     <frontend>
@@ -37,8 +37,20 @@
             </apedic_training>
             <apedic_training_resource>
                 <class>Apedic_Training_Model_Resource</class>
+                <entities>
+                    <comments>
+                        <table>apedic_training_comments</table>
+                    </comments>
+                </entities>
             </apedic_training_resource>
         </models>
+        <resources>
+            <apedic_training_setup>
+                <setup>
+                    <module>Apedic_Training</module>
+                </setup>
+            </apedic_training_setup>
+        </resources>
         <blocks>
             <apedic_training>
                 <class>Apedic_Training_Block</class>
