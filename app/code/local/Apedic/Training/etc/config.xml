@@ -2,10 +2,17 @@
 <config>
     <modules>
         <Apedic_Training>
-            <version>1.0.0.0</version>
+            <version>0.4.4</version>
         </Apedic_Training>
     </modules>
     <frontend>
+        <layout>
+            <updates>
+                <apedic_training>
+                    <file>comments.xml</file>
+                </apedic_training>
+            </updates>
+        </layout>
         <routers>
             <training>
                 <use>standard</use>
@@ -24,6 +31,7 @@
         </routers>
     </frontend>
     <global>
+
         <models>
             <sales>
                 <rewrite>
@@ -37,9 +45,9 @@
             <apedic_training_resource>
                 <class>Apedic_Training_Model_Resource</class>
                 <entities>
-                <comments_entity>
-                    <table>apedic_training_comments_entity</table>
-                </comments_entity>
+                    <comments>
+                        <table>apedic_training_comments</table>
+                    </comments>
                 </entities>
             </apedic_training_resource>
         </models>
@@ -47,7 +55,6 @@
             <apedic_training_setup>
                 <setup>
                     <module>Apedic_Training</module>
-                    <class>Apedic_Training_Model_Resource_Setup</class>
                 </setup>
             </apedic_training_setup>
         </resources>
